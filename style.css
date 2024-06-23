@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.image-container{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.image-container img{
+    padding: 15px;
+    cursor:pointer;
+}
+.image-container img:hover{
+    opacity:.5;
+    transform: scale(0.8) rotate(-15deg);
+    box-shadow:7px 32px 7px rgba(58, 2, 55, 0.2);
+    border-color: rgb(20, 1, 19);
+
+}
+body{
+    background-color: lightpink;
+}
+
